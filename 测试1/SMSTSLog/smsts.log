@@ -565,4 +565,4 @@ Reading Global variable list]LOG]!><time="05:28:26.163+000" date="07-07-2015" co
 <![LOG[Finalizing logging from process 1196]LOG]!><time="05:49:31.894+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tslogging.cpp:1736">
 <![LOG[Finalizing logs to root of first available drive]LOG]!><time="05:49:31.894+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tslogging.cpp:1578">
 <![LOG[Successfully finalized logs to F:\SMSTSLog]LOG]!><time="05:49:31.922+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tslogging.cpp:1635">
-<![LOG[Cleaning up task sequencing logging configuration.]LOG]!><time="05:49:31.922+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="tslogging.cpp:578">
+<![LOG
