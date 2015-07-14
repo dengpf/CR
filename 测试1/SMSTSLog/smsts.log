@@ -1,0 +1,568 @@
+<![LOG[==============================[ TSMBootStrap.exe ]==============================]LOG]!><time="05:28:25.969+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="tsmbootstrap.cpp:1039">
+<![LOG[Command line: "X:\Deploy\Tools\X64\TsmBootstrap.exe"  /env:SAContinue]LOG]!><time="05:28:25.969+000" date="07-07-2015" component="TSMBootstrap" context="" type="0" thread="1160" file="tsmbootstrap.cpp:1040">
+<![LOG[Succeeded loading resource DLL 'X:\Deploy\Tools\X64\00000409\TSRES.DLL']LOG]!><time="05:28:25.969+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="util.cpp:869">
+<![LOG[Succeeded loading resource DLL 'X:\Deploy\Tools\X64\TSRESNLC.DLL']LOG]!><time="05:28:25.969+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="resourceutils.cpp:152">
+<![LOG[Running Task Sequence in standalone.]LOG]!><time="05:28:25.969+000" date="07-07-2015" component="TSMBootstrap" context="" type="0" thread="1160" file="tsmbootstrap.cpp:523">
+<![LOG[Environment scope "Global\{51A016B6-F0DE-4752-B97C-54E6F386A912}" successfully created]LOG]!><time="05:28:25.969+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="environmentscope.cpp:250">
+<![LOG[Environment scope "Global\{BA3A3900-CA6D-4ac1-8C28-5073AFC22B03}" successfully created]LOG]!><time="05:28:25.969+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="environmentscope.cpp:250">
+<![LOG[Loading the Task Sequencing Environment from "C:\_SMSTaskSequence\TSEnv.dat".]LOG]!><time="05:28:26.000+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="tsmbootstrap.cpp:650">
+<![LOG[Updating the local data path in the Task Sequencing Environment.]LOG]!><time="05:28:26.053+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="tsmbootstrap.cpp:659">
+<![LOG[Found network adapter "Realtek PCIe FE Family Controller" with IP Address 10.0.0.101.]LOG]!><time="05:28:26.053+000" date="07-07-2015" component="TSMBootstrap" context="" type="0" thread="1160" file="tsmbootstraputil.cpp:434">
+<![LOG[Command line for extension .exe is "%1" %*]LOG]!><time="05:28:26.053+000" date="07-07-2015" component="TSMBootstrap" context="" type="0" thread="1160" file="commandline.cpp:229">
+<![LOG[Set command line: "X:\Deploy\Tools\X64\TsProgressUI.exe" /Register:WinPE]LOG]!><time="05:28:26.053+000" date="07-07-2015" component="TSMBootstrap" context="" type="0" thread="1160" file="commandline.cpp:707">
+<![LOG[Executing command line: "X:\Deploy\Tools\X64\TsProgressUI.exe" /Register:WinPE]LOG]!><time="05:28:26.053+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="commandline.cpp:805">
+<![LOG[==========[ TsProgressUI started in process 1180 ]==========]LOG]!><time="05:28:26.068+000" date="07-07-2015" component="TsProgressUI" context="" type="1" thread="1184" file="winmain.cpp:327">
+<![LOG[Command line: "X:\Deploy\Tools\X64\TsProgressUI.exe" /Register:WinPE]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TsProgressUI" context="" type="0" thread="1184" file="winmain.cpp:330">
+<![LOG[Registering COM classes]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TsProgressUI" context="" type="1" thread="1184" file="winmain.cpp:185">
+<![LOG[sbModulePath = X:\Deploy\Tools\X64\TsProgressUI.exe]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TsProgressUI" context="" type="1" thread="1184" file="tsprogressuiclass.cpp:623">
+<![LOG[Unregistering class objects]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TsProgressUI" context="" type="1" thread="1184" file="winmain.cpp:503">
+<![LOG[Shutdown complete.]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TsProgressUI" context="" type="1" thread="1184" file="winmain.cpp:520">
+<![LOG[Process completed with exit code 0]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="commandline.cpp:1102">
+<![LOG[Successfully registered TS Progress UI.]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="utils.cpp:1922">
+<![LOG[Starting Task Sequence Manager.]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="tsmbootstrap.cpp:688">
+<![LOG[executing TS Manager not in full media]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="tsmbootstraputil.cpp:499">
+<![LOG[executing TS Manager in x:\deploy\tools\x64]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="tsmbootstraputil.cpp:510">
+<![LOG[Command line for extension .exe is "%1" %*]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TSMBootstrap" context="" type="0" thread="1160" file="commandline.cpp:229">
+<![LOG[Set command line: "TsManager.exe" /standalone]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TSMBootstrap" context="" type="0" thread="1160" file="commandline.cpp:707">
+<![LOG[Executing command line: "TsManager.exe" /standalone]LOG]!><time="05:28:26.084+000" date="07-07-2015" component="TSMBootstrap" context="" type="1" thread="1160" file="commandline.cpp:805">
+<![LOG[LOGGING: Finalize process ID set to 1196]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tslogging.cpp:1489">
+<![LOG[Successfully intialized Logging for TS Manager.]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:617">
+<![LOG[Commandline: "TsManager.exe" /standalone]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:60">
+<![LOG[/service parameter found at index: -1]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:67">
+<![LOG[/standalone parameter found at index: 16]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:77">
+<![LOG[**************************************************]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:84">
+<![LOG[TSManager executing in non SMS, standalone mode]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:85">
+<![LOG[/noclient parameter found at index: -1]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:98">
+<![LOG[Successfully registered Task Sequencing COM Interface.]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="environmentlib.cpp:782">
+<![LOG[Executing as a standalone exe]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:655">
+<![LOG[Initializing TS Environment]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:1088">
+<![LOG[Opening Task Sequencing Environment]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:1125">
+<![LOG[!sVolumeID.empty(), HRESULT=80004005 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,467)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:467">
+<![LOG[DeleteFileW(sVolumeIDFile.c_str()), HRESULT=80070002 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,508)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:508">
+<![LOG[!sVolumeID.empty(), HRESULT=80004005 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,467)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:467">
+<![LOG[DeleteFileW(sVolumeIDFile.c_str()), HRESULT=80070002 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,508)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:508">
+<![LOG[!sVolumeID.empty(), HRESULT=80004005 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,467)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:467">
+<![LOG[DeleteFileW(sVolumeIDFile.c_str()), HRESULT=80070002 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,508)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:508">
+<![LOG[!sVolumeID.empty(), HRESULT=80004005 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,467)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:467">
+<![LOG[DeleteFileW(sVolumeIDFile.c_str()), HRESULT=80070002 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,508)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:508">
+<![LOG[pwszPath && *pwszPath, HRESULT=80070057 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,244)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:244">
+<![LOG[pwszPath && *pwszPath, HRESULT=80070057 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,244)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:244">
+<![LOG[pwszPath && *pwszPath, HRESULT=80070057 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,244)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:244">
+<![LOG[pwszPath && *pwszPath, HRESULT=80070057 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,244)]LOG]!><time="05:28:26.099+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:244">
+<![LOG[Executing in WinPE]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:1261">
+<![LOG[_SMSTSReturnToGINA variable set to false]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:1274">
+<![LOG[No SMS client installed or in standalone mode. Skipping remediation check.]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:1758">
+<![LOG[Initializing TS Engine]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:1441">
+<![LOG[Getting TaskSequenceXML from environment]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:1449">
+<![LOG[Parsing task sequence . . .]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:1470">
+<![LOG[Loaded TS from string]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:86">
+<![LOG[Parsing task sequence to get schema version]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:106">
+<![LOG[Task sequence version 3.00]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="tsmanager.cpp:1475">
+<![LOG[Task sequence schema version is 3.00]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="tsmanager.cpp:1402">
+<![LOG[Current supported schema version is 3.10 and 3.00]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="tsmanager.cpp:1409">
+<![LOG[Processing get action table request]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:139">
+<![LOG[Got root node now getting list of all child elements]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:150">
+<![LOG[There are 2 first level steps or groups]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:418">
+<![LOG[Processing group]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:543">
+<![LOG[
+Parsing group node: Capture Image]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:465">
+<![LOG[Description: ]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:469">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:473">
+<![LOG[Disable: false]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:481">
+<![LOG[A condition is associated with the step found]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:765">
+<![LOG[Found and operator.]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:843">
+<![LOG[There are 0 operands]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:878">
+<![LOG[Adding begin group instruction at 0]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:493">
+<![LOG[There are 7 first level steps or groups]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:418">
+<![LOG[
+Parsing step node: Set Image Build]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.116+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: VariableName]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: VariableValue]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\ZTISetVariable.wsf"]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 1]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[
+Parsing step node: Set ImageFlags]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: VariableName]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: VariableValue]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\ZTISetVariable.wsf"]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 2]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[
+Parsing step node: Set Phase]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: VariableName]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: VariableValue]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\ZTISetVariable.wsf"]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 3]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[
+Parsing step node: Configure]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: RunAsUser]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserName]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserPassword]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: LoadProfile]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\ZTIConfigure.wsf"]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 4]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[Processing group]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:543">
+<![LOG[
+Parsing group node: Prepare Only]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:465">
+<![LOG[Description: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:469">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:473">
+<![LOG[Disable: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:481">
+<![LOG[A condition is associated with the step found]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:765">
+<![LOG[Found and operator.]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:843">
+<![LOG[There are 1 operands]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:878">
+<![LOG[**Processing expression node]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:887">
+<![LOG[Found SMS_TaskSequence_VariableConditionExpression expression.]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:912">
+<![LOG[**In ProcessBuiltInCondition node: expression]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1004">
+<![LOG[There are 3 operands in the built in action]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1021">
+<![LOG[Operand Variable=DoCapture]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Operand Operator=equals]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Operand Value=PREPARE]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Successfully added 3 condition parameters]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="tsxml.cpp:1100">
+<![LOG[Adding begin group instruction at 5]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:493">
+<![LOG[There are 1 first level steps or groups]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:418">
+<![LOG[
+Parsing step node: Copy Sysprep files]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: RunAsUser]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserName]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserPassword]LOG]!><time="05:28:26.132+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: LoadProfile]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\LTISysprep.wsf"]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 6]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[Processed all elements]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:433">
+<![LOG[Adding end group instruction at 7]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:502">
+<![LOG[The next instruction after group will be at 8]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:508">
+<![LOG[Processing group]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:543">
+<![LOG[
+Parsing group node: Sysprep Only]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:465">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:469">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:473">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:481">
+<![LOG[A condition is associated with the step found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:765">
+<![LOG[Found and operator.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:843">
+<![LOG[There are 1 operands]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:878">
+<![LOG[**Processing expression node]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:887">
+<![LOG[Found SMS_TaskSequence_VariableConditionExpression expression.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:912">
+<![LOG[**In ProcessBuiltInCondition node: expression]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1004">
+<![LOG[There are 3 operands in the built in action]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1021">
+<![LOG[Operand Variable=DoCapture]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Operand Operator=equals]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Operand Value=SYSPREP]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Successfully added 3 condition parameters]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="tsxml.cpp:1100">
+<![LOG[Adding begin group instruction at 8]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:493">
+<![LOG[There are 2 first level steps or groups]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:418">
+<![LOG[
+Parsing step node: Add mass storage drivers to sysprep.inf for XP and 2003]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: RunAsUser]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserName]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserPassword]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: LoadProfile]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\ZTIDrivers.wsf"]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 9]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[
+Parsing step node: Execute Sysprep]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: RunAsUser]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserName]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserPassword]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: LoadProfile]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\LTISysprep.wsf"]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 10]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[Processed all elements]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:433">
+<![LOG[Adding end group instruction at 11]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:502">
+<![LOG[The next instruction after group will be at 12]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:508">
+<![LOG[Processing group]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:543">
+<![LOG[
+Parsing group node: Capture Image]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:465">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:469">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:473">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:481">
+<![LOG[A condition is associated with the step found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:765">
+<![LOG[Found and operator.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:843">
+<![LOG[There are 1 operands]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:878">
+<![LOG[**Processing expression node]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:887">
+<![LOG[Found SMS_TaskSequence_VariableConditionExpression expression.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:912">
+<![LOG[**In ProcessBuiltInCondition node: expression]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1004">
+<![LOG[There are 3 operands in the built in action]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1021">
+<![LOG[Operand Variable=DoCapture]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Operand Operator=equals]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Operand Value=YES]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Successfully added 3 condition parameters]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="tsxml.cpp:1100">
+<![LOG[Adding begin group instruction at 12]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:493">
+<![LOG[There are 7 first level steps or groups]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:418">
+<![LOG[
+Parsing step node: Apply Windows PE]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: RunAsUser]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserName]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserPassword]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: LoadProfile]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\LTIApply.wsf" /PE /STAGE]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 13]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[
+Parsing step node: Add mass storage drivers to sysprep.inf for XP and 2003]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: RunAsUser]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserName]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserPassword]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: LoadProfile]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\ZTIDrivers.wsf"]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 14]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[
+Parsing step node: Execute Sysprep]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: RunAsUser]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserName]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserPassword]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: LoadProfile]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\LTISysprep.wsf"]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 15]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[
+Parsing step node: Apply Windows PE (BCD)]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[A condition is associated with the step found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:765">
+<![LOG[Found and operator.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:843">
+<![LOG[There are 1 operands]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:878">
+<![LOG[**Processing expression node]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:887">
+<![LOG[Found SMS_TaskSequence_VariableConditionExpression expression.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:912">
+<![LOG[**In ProcessBuiltInCondition node: expression]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1004">
+<![LOG[There are 3 operands in the built in action]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1021">
+<![LOG[Operand Variable=ImageBuild]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Operand Operator=greaterEqual]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Operand Value=6]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:1035">
+<![LOG[Successfully added 3 condition parameters]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="tsxml.cpp:1100">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: RunAsUser]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserName]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserPassword]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: LoadProfile]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%_SMSTSMDataPath%\Scripts\LTIApply.wsf" /PE /BCD]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 16]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[
+Parsing step node: Restart computer]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: WinPEandFullOS]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: Message]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: MessageTimeout]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: Target]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: smsboot.exe /target:WinPE]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 17]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[
+Parsing step node: Gather local only]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: GatherLocalOnly]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: RulesFile]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\ZTIGather.wsf"]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 18]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[
+Parsing step node: Create WIM]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: RunAsUser]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserName]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: SMSTSRunCommandLineUserPassword]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: LoadProfile]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\ZTIBackup.wsf"]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 19]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[Processed all elements]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:433">
+<![LOG[Adding end group instruction at 20]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:502">
+<![LOG[The next instruction after group will be at 21]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:508">
+<![LOG[Processed all elements]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:433">
+<![LOG[Adding end group instruction at 21]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:502">
+<![LOG[The next instruction after group will be at 22]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:508">
+<![LOG[
+Parsing step node: MDT DO NOT ENABLE OR DELETE]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:558">
+<![LOG[Description: This is used only to get the Unattend files]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:562">
+<![LOG[ContinueOnError: false]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:566">
+<![LOG[SuccessCodeList: 0 3010]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:574">
+<![LOG[(__hrMethodRetVal == ((HRESULT)0L)) || (bFailIfMissing == false), HRESULT=80070002 (e:\nts_sms_fre\SMS\common\inc\ccmxml.h,566)]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="ccmxml.h:566">
+<![LOG[No condition is associated with the step.]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:776">
+<![LOG[Disable: true]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:583">
+<![LOG[Start in dir: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:591">
+<![LOG[Run in attribute: WinPEandFullOS]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:595">
+<![LOG[Timeout: ]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:599">
+<![LOG[DefaultVarlist found]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:683">
+<![LOG[Variable name: OSGUID]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: DestinationDisk]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: DestinationPartition]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: DestinationOSDriveLetter]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: DestinationOSVariable]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: DestinationOSRefresh]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Variable name: DestinationOSInstallType]LOG]!><time="05:28:26.148+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:724">
+<![LOG[Action command line: cscript.exe "%SCRIPTROOT%\LTIApply.wsf"]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:626">
+<![LOG[Adding instruction at 22]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:628">
+<![LOG[Processed all elements]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:433">
+<![LOG[
+Reading Global variable list]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:281">
+<![LOG[Got root node now getting global var list]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:292">
+<![LOG[GlobalVarlist found]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:308">
+<![LOG[Variable name: OSGUID]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:342">
+<![LOG[Variable name: DestinationDisk]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:342">
+<![LOG[Variable name: DestinationPartition]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:342">
+<![LOG[Variable name: DestinationOSVariable]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:342">
+<![LOG[Variable name: DestinationOSRefresh]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:342">
+<![LOG[Variable name: DestinationOSDriveLetter]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:342">
+<![LOG[Variable name: DestinationOSInstallType]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsxml.cpp:342">
+<![LOG[Starting Task Sequence Engine . . . ]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:758">
+<![LOG[****************************************************************************]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:760">
+<![LOG[NextInstructionPointer: 18]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="executionenv.cxx:482">
+<![LOG[Set a global environment variable _SMSTSInstructionTableSize=23]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable SMSTSRebootRequested=]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable SMSTSRebootDelay=]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable SMSTSRebootMessage=]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable SMSTSRebootReason=]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable SMSTSRetryRequested=]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Succeeded loading resource DLL 'X:\Deploy\Tools\X64\00000409\TSRES.DLL']LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="util.cpp:869">
+<![LOG[The task execution engine started execution]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:70">
+<![LOG[Sending status message . . .]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:292">
+<![LOG[Executing in non SMS standalone mode. Ignoring send a task execution status message request]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:302">
+<![LOG[Start executing an instruciton. Instruction name: Gather local only. Instruction pointer: 18]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:117">
+<![LOG[Set a global environment variable _SMSTSCurrentActionName=Gather local only]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable _SMSTSNextInstructionPointer=18]LOG]!><time="05:28:26.163+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a local default variable GatherLocalOnly]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:700">
+<![LOG[Set a local default variable RulesFile]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:700">
+<![LOG[Set a global environment variable _SMSTSLogPath=X:\windows\TEMP\SMSTSLog]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Expand a string: cscript.exe "%SCRIPTROOT%\ZTIGather.wsf"]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:782">
+<![LOG[Expand a string: ]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:782">
+<![LOG[Command line for extension .exe is "%1" %*]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="commandline.cpp:229">
+<![LOG[Set command line: cscript.exe "%SCRIPTROOT%\ZTIGather.wsf"]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="commandline.cpp:707">
+<![LOG[Start executing the command line: cscript.exe "%SCRIPTROOT%\ZTIGather.wsf"]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:2928">
+<![LOG[!--------------------------------------------------------------------------------------------!]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:2957">
+<![LOG[Expand a string: ]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:782">
+<![LOG[Executing command line: cscript.exe "%SCRIPTROOT%\ZTIGather.wsf"]LOG]!><time="05:28:26.215+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="commandline.cpp:805">
+<![LOG[Process completed with exit code 0]LOG]!><time="05:28:28.568+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="commandline.cpp:1102">
+<![LOG[!--------------------------------------------------------------------------------------------!]LOG]!><time="05:28:28.568+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:3010">
+<![LOG[Successfully complete the action (Gather local only) with the exit win32 code 0]LOG]!><time="05:28:28.568+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:3036">
+<![LOG[Sending status message . . .]LOG]!><time="05:28:28.568+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:292">
+<![LOG[Executing in non SMS standalone mode. Ignoring send a task execution status message request]LOG]!><time="05:28:28.568+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:302">
+<![LOG[Set a global environment variable _SMSTSLastActionRetCode=0]LOG]!><time="05:28:28.568+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable _SMSTSLastActionSucceeded=true]LOG]!><time="05:28:28.568+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Expand a string: %_SMSTSMDataPath%\Logs]LOG]!><time="05:28:28.568+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:782">
+<![LOG[Clear local default environment]LOG]!><time="05:28:28.631+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:807">
+<![LOG[Updated security on object C:\_SMSTaskSequence.]LOG]!><time="05:28:28.646+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utils.cpp:829">
+<![LOG[Set a global environment variable _SMSTSNextInstructionPointer=19]LOG]!><time="05:28:28.646+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a TS execution environment variable _SMSTSNextInstructionPointer=19]LOG]!><time="05:28:28.646+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:386">
+<![LOG[Set a global environment variable _SMSTSInstructionStackString=0 12]LOG]!><time="05:28:28.646+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a TS execution environment variable _SMSTSInstructionStackString=0 12]LOG]!><time="05:28:28.646+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:414">
+<![LOG[Save the current environment block]LOG]!><time="05:28:28.646+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:833">
+<![LOG[Successfully save execution state and environment to local hard disk]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:255">
+<![LOG[Start executing an instruciton. Instruction name: Create WIM. Instruction pointer: 19]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:117">
+<![LOG[Set a global environment variable _SMSTSCurrentActionName=Create WIM]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable _SMSTSNextInstructionPointer=19]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a local default variable RunAsUser]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:700">
+<![LOG[Set a local default variable SMSTSRunCommandLineUserName]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:700">
+<![LOG[Set a local default variable SMSTSRunCommandLineUserPassword]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:700">
+<![LOG[Set a local default variable LoadProfile]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:700">
+<![LOG[Set a global environment variable _SMSTSLogPath=X:\windows\TEMP\SMSTSLog]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Expand a string: cscript.exe "%SCRIPTROOT%\ZTIBackup.wsf"]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:782">
+<![LOG[Expand a string: ]LOG]!><time="05:28:28.662+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:782">
+<![LOG[Command line for extension .exe is "%1" %*]LOG]!><time="05:28:28.678+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="commandline.cpp:229">
+<![LOG[Set command line: cscript.exe "%SCRIPTROOT%\ZTIBackup.wsf"]LOG]!><time="05:28:28.678+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="commandline.cpp:707">
+<![LOG[Start executing the command line: cscript.exe "%SCRIPTROOT%\ZTIBackup.wsf"]LOG]!><time="05:28:28.678+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:2928">
+<![LOG[!--------------------------------------------------------------------------------------------!]LOG]!><time="05:28:28.678+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:2957">
+<![LOG[Expand a string: ]LOG]!><time="05:28:28.678+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:782">
+<![LOG[Executing command line: cscript.exe "%SCRIPTROOT%\ZTIBackup.wsf"]LOG]!><time="05:28:28.678+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="commandline.cpp:805">
+<![LOG[Process completed with exit code 0]LOG]!><time="05:49:31.459+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="commandline.cpp:1102">
+<![LOG[!--------------------------------------------------------------------------------------------!]LOG]!><time="05:49:31.475+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:3010">
+<![LOG[Successfully complete the action (Create WIM) with the exit win32 code 0]LOG]!><time="05:49:31.475+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:3036">
+<![LOG[Sending status message . . .]LOG]!><time="05:49:31.475+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:292">
+<![LOG[Executing in non SMS standalone mode. Ignoring send a task execution status message request]LOG]!><time="05:49:31.475+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:302">
+<![LOG[Set a global environment variable _SMSTSLastActionRetCode=0]LOG]!><time="05:49:31.475+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable _SMSTSLastActionSucceeded=true]LOG]!><time="05:49:31.475+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Expand a string: %_SMSTSMDataPath%\Logs]LOG]!><time="05:49:31.475+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:782">
+<![LOG[Deleting file without retry]LOG]!><time="05:49:31.475+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="ccmfile.cpp:1015">
+<![LOG[Clear local default environment]LOG]!><time="05:49:31.475+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:807">
+<![LOG[Updated security on object C:\_SMSTaskSequence.]LOG]!><time="05:49:31.536+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utils.cpp:829">
+<![LOG[Set a global environment variable _SMSTSNextInstructionPointer=20]LOG]!><time="05:49:31.536+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a TS execution environment variable _SMSTSNextInstructionPointer=20]LOG]!><time="05:49:31.536+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:386">
+<![LOG[Set a global environment variable _SMSTSInstructionStackString=0 12]LOG]!><time="05:49:31.536+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a TS execution environment variable _SMSTSInstructionStackString=0 12]LOG]!><time="05:49:31.536+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:414">
+<![LOG[Save the current environment block]LOG]!><time="05:49:31.536+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:833">
+<![LOG[Successfully save execution state and environment to local hard disk]LOG]!><time="05:49:31.568+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:255">
+<![LOG[Start executing an instruciton. Instruction name: Capture Image. Instruction pointer: 20]LOG]!><time="05:49:31.574+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:117">
+<![LOG[Set a global environment variable _SMSTSCurrentActionName=Capture Image]LOG]!><time="05:49:31.574+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable _SMSTSNextInstructionPointer=20]LOG]!><time="05:49:31.574+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[The group (Capture Image) has been successfully completed]LOG]!><time="05:49:31.574+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:2551">
+<![LOG[Sending status message . . .]LOG]!><time="05:49:31.574+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:292">
+<![LOG[Executing in non SMS standalone mode. Ignoring send a task execution status message request]LOG]!><time="05:49:31.589+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:302">
+<![LOG[Updated security on object C:\_SMSTaskSequence.]LOG]!><time="05:49:31.589+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utils.cpp:829">
+<![LOG[Set a global environment variable _SMSTSNextInstructionPointer=21]LOG]!><time="05:49:31.589+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a TS execution environment variable _SMSTSNextInstructionPointer=21]LOG]!><time="05:49:31.589+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:386">
+<![LOG[Set a global environment variable _SMSTSInstructionStackString=0]LOG]!><time="05:49:31.589+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a TS execution environment variable _SMSTSInstructionStackString=0]LOG]!><time="05:49:31.589+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:414">
+<![LOG[Save the current environment block]LOG]!><time="05:49:31.589+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:833">
+<![LOG[Successfully save execution state and environment to local hard disk]LOG]!><time="05:49:31.605+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:255">
+<![LOG[Start executing an instruciton. Instruction name: Capture Image. Instruction pointer: 21]LOG]!><time="05:49:31.605+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:117">
+<![LOG[Set a global environment variable _SMSTSCurrentActionName=Capture Image]LOG]!><time="05:49:31.605+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable _SMSTSNextInstructionPointer=21]LOG]!><time="05:49:31.605+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[The group (Capture Image) has been successfully completed]LOG]!><time="05:49:31.605+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:2551">
+<![LOG[Sending status message . . .]LOG]!><time="05:49:31.605+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:292">
+<![LOG[Executing in non SMS standalone mode. Ignoring send a task execution status message request]LOG]!><time="05:49:31.621+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:302">
+<![LOG[Updated security on object C:\_SMSTaskSequence.]LOG]!><time="05:49:31.621+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utils.cpp:829">
+<![LOG[Set a global environment variable _SMSTSNextInstructionPointer=22]LOG]!><time="05:49:31.621+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a TS execution environment variable _SMSTSNextInstructionPointer=22]LOG]!><time="05:49:31.621+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:386">
+<![LOG[Set a global environment variable _SMSTSInstructionStackString=]LOG]!><time="05:49:31.621+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a TS execution environment variable _SMSTSInstructionStackString=]LOG]!><time="05:49:31.621+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:414">
+<![LOG[Save the current environment block]LOG]!><time="05:49:31.621+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:833">
+<![LOG[Successfully save execution state and environment to local hard disk]LOG]!><time="05:49:31.636+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:255">
+<![LOG[Start executing an instruciton. Instruction name: MDT DO NOT ENABLE OR DELETE. Instruction pointer: 22]LOG]!><time="05:49:31.636+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:117">
+<![LOG[Set a global environment variable _SMSTSCurrentActionName=MDT DO NOT ENABLE OR DELETE]LOG]!><time="05:49:31.636+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[Set a global environment variable _SMSTSNextInstructionPointer=22]LOG]!><time="05:49:31.636+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:668">
+<![LOG[The action (MDT DO NOT ENABLE OR DELETE) has been skipped because it is disabled]LOG]!><time="05:49:31.636+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="instruction.cxx:2813">
+<![LOG[Sending status message . . .]LOG]!><time="05:49:31.652+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:292">
+<![LOG[Executing in non SMS standalone mode. Ignoring send a task execution status message request]LOG]!><time="05:49:31.652+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:302">
+<![LOG[Clear local default environment]LOG]!><time="05:49:31.652+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="executionenv.cxx:807">
+<![LOG[Execution of the instruction (MDT DO NOT ENABLE OR DELETE) has been skipped]LOG]!><time="05:49:31.652+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:193">
+<![LOG[The task exeuction engine successfully completed the execution]LOG]!><time="05:49:31.652+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="engine.cxx:332">
+<![LOG[Sending status message . . .]LOG]!><time="05:49:31.652+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:292">
+<![LOG[Executing in non SMS standalone mode. Ignoring send a task execution status message request]LOG]!><time="05:49:31.652+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utility.cxx:302">
+<![LOG[****************************************************************************]LOG]!><time="05:49:31.667+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:768">
+<![LOG[Execution engine result code: 0 (Success=0, Failure=1, RebootInitiated=2)]LOG]!><time="05:49:31.667+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:770">
+<![LOG[Cleaning Up. Removing Authenticator]LOG]!><time="05:49:31.667+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:578">
+<![LOG[Cleaning up task sequence folder]LOG]!><time="05:49:31.667+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utils.cpp:1404">
+<![LOG[DeleteFileW(sVolumeIDFile.c_str()), HRESULT=80070002 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,508)]LOG]!><time="05:49:31.800+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:508">
+<![LOG[DeleteFileW(sVolumeIDFile.c_str()), HRESULT=80070002 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,508)]LOG]!><time="05:49:31.800+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:508">
+<![LOG[DeleteFileW(sVolumeIDFile.c_str()), HRESULT=80070002 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,508)]LOG]!><time="05:49:31.800+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:508">
+<![LOG[DeleteFileW(sVolumeIDFile.c_str()), HRESULT=80070002 (e:\nts_sms_fre\sms\framework\tscore\resolvesource.cpp,508)]LOG]!><time="05:49:31.800+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="resolvesource.cpp:508">
+<![LOG[Successfully unregistered Task Sequencing Environment COM Interface.]LOG]!><time="05:49:31.800+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="environmentlib.cpp:869">
+<![LOG[Command line for extension .exe is "%1" %*]LOG]!><time="05:49:31.800+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="commandline.cpp:229">
+<![LOG[Set command line: "X:\Deploy\Tools\X64\TsProgressUI.exe" /Unregister]LOG]!><time="05:49:31.800+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="commandline.cpp:707">
+<![LOG[Executing command line: "X:\Deploy\Tools\X64\TsProgressUI.exe" /Unregister]LOG]!><time="05:49:31.800+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="commandline.cpp:805">
+<![LOG[==========[ TsProgressUI started in process 1556 ]==========]LOG]!><time="05:49:31.878+000" date="07-07-2015" component="TsProgressUI" context="" type="1" thread="1548" file="winmain.cpp:327">
+<![LOG[Command line: "X:\Deploy\Tools\X64\TsProgressUI.exe" /Unregister]LOG]!><time="05:49:31.878+000" date="07-07-2015" component="TsProgressUI" context="" type="0" thread="1548" file="winmain.cpp:330">
+<![LOG[Unregistering COM classes]LOG]!><time="05:49:31.878+000" date="07-07-2015" component="TsProgressUI" context="" type="1" thread="1548" file="winmain.cpp:202">
+<![LOG[Unregistering class objects]LOG]!><time="05:49:31.878+000" date="07-07-2015" component="TsProgressUI" context="" type="1" thread="1548" file="winmain.cpp:503">
+<![LOG[Shutdown complete.]LOG]!><time="05:49:31.878+000" date="07-07-2015" component="TsProgressUI" context="" type="1" thread="1548" file="winmain.cpp:520">
+<![LOG[Process completed with exit code 0]LOG]!><time="05:49:31.878+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="commandline.cpp:1102">
+<![LOG[Successfully unregistered TS Progress UI.]LOG]!><time="05:49:31.878+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="utils.cpp:1963">
+<![LOG[Sending success status message]LOG]!><time="05:49:31.894+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:675">
+<![LOG[In non SMS staqndalone mode.Ignoring SendStatusMessage request]LOG]!><time="05:49:31.894+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tsmanager.cpp:1541">
+<![LOG[Finalizing logging from process 1196]LOG]!><time="05:49:31.894+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tslogging.cpp:1736">
+<![LOG[Finalizing logs to root of first available drive]LOG]!><time="05:49:31.894+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tslogging.cpp:1578">
+<![LOG[Successfully finalized logs to F:\SMSTSLog]LOG]!><time="05:49:31.922+000" date="07-07-2015" component="TSManager" context="" type="1" thread="1200" file="tslogging.cpp:1635">
+<![LOG[Cleaning up task sequencing logging configuration.]LOG]!><time="05:49:31.922+000" date="07-07-2015" component="TSManager" context="" type="0" thread="1200" file="tslogging.cpp:578">
